@@ -19,6 +19,7 @@ Nepxion Mask是一款掩码脱敏组件(从网上开源搜集，非原创)
     11 IP
 
 ## 示例
+调用入口
 ```java
 public class MaskTest {
     public static void main(String[] args) throws Exception {
