@@ -1,7 +1,11 @@
-# Zxing
+# Nepxion Mask
 [![Apache License 2](https://img.shields.io/badge/license-ASF2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-## 掩码脱敏组件(从网上开源搜集，非原创)，支持如下业务场景
+Nepxion Mask是一款掩码脱敏组件(从网上开源搜集，非原创)
+
+## 简介
+支持如下业务场景
+
     1 手机号码
     2 银行卡号
     3 身份证号
@@ -32,7 +36,8 @@ public class MaskTest {
     }
 }
 ```
-## 输出
+
+运行结果
 ```java
 138****5678
 1234 1************* 123
