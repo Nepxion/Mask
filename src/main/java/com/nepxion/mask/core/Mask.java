@@ -21,6 +21,18 @@ public final class Mask {
     public static final char[] EMPTY_CHARS = new char[0];
 
     static {
+        System.out.println("");
+        System.out.println("╔═╗╔═╗     ╔╗");
+        System.out.println("║║╚╝║║     ║║");
+        System.out.println("║╔╗╔╗╠══╦══╣║╔╗");
+        System.out.println("║║║║║║╔╗║══╣╚╝╝");
+        System.out.println("║║║║║║╔╗╠══║╔╗╗");
+        System.out.println("╚╝╚╝╚╩╝╚╩══╩╝╚╝");
+        System.out.println("Nepxion Mask  v1.0.0.RELEASE");
+        System.out.println("");
+    }
+
+    static {
         Arrays.fill(MASK_3, MASK_CHAR);
         Arrays.fill(MASK_4, MASK_CHAR);
         Arrays.fill(MASK_6, MASK_CHAR);
