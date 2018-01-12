@@ -27,7 +27,7 @@ public final class Mask {
         System.out.println("║║║║║║╔╗║══╣╚╝╝");
         System.out.println("║║║║║║╔╗╠══║╔╗╗");
         System.out.println("╚╝╚╝╚╩╝╚╩══╩╝╚╝");
-        System.out.println("Nepxion Mask  v1.0.0.RELEASE");
+        System.out.println("Nepxion Mask  v1.0.0");
         System.out.println("");
     }
 
