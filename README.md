@@ -1,5 +1,5 @@
 # Nepxion Mask
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Nepxion/Mask/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?label=license)](https://github.com/Nepxion/Mask/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Nepxion/Mask.svg?branch=master)](https://travis-ci.org/Nepxion/Mask)
 
 Nepxion Mask是一款掩码脱敏组件(从网上开源搜集，非原创)
