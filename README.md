@@ -4,6 +4,11 @@
 
 Nepxion Mask是一款掩码脱敏组件(从网上开源搜集，非原创)
 
+## 请联系我
+- 请加微信群或者微信
+
+![Alt text](https://github.com/Nepxion/Docs/blob/master/zxing-doc/微信群-1.jpg) ![Alt text](https://github.com/Nepxion/Docs/blob/master/zxing-doc/微信-1.jpg)
+
 ## 简介
 支持如下业务场景
 - 手机号码
