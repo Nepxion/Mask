@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/Nepxion/Mask.svg?branch=master)](https://travis-ci.org/Nepxion/Mask)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2b9d72ef8b7b42acac3a03994c8b5b41)](https://www.codacy.com/project/HaojunRen/Mask/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nepxion/Mask&amp;utm_campaign=Badge_Grade_Dashboard)
 
-Nepxion Mask是一款掩码脱敏组件(从网上开源搜集，非原创)
+Nepxion Mask是一款掩码脱敏集成组件(从网上开源搜集，非原创)
 
 ## 请联系我
 ![Alt text](https://github.com/Nepxion/Docs/blob/master/zxing-doc/微信-1.jpg)
