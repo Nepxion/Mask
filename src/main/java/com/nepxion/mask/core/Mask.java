@@ -20,15 +20,18 @@ public final class Mask {
     public static final char[] EMPTY_CHARS = new char[0];
 
     static {
-        System.out.println("");
-        System.out.println("╔═╗╔═╗     ╔╗");
-        System.out.println("║║╚╝║║     ║║");
-        System.out.println("║╔╗╔╗╠══╦══╣║╔╗");
-        System.out.println("║║║║║║╔╗║══╣╚╝╝");
-        System.out.println("║║║║║║╔╗╠══║╔╗╗");
-        System.out.println("╚╝╚╝╚╩╝╚╩══╩╝╚╝");
-        System.out.println("Nepxion Mask  v1.0.0");
-        System.out.println("");
+        String logoShown = System.getProperty("nepxion.logo.shown", "true");
+        if (Boolean.valueOf(logoShown)) {
+            System.out.println("");
+            System.out.println("╔═╗╔═╗     ╔╗");
+            System.out.println("║║╚╝║║     ║║");
+            System.out.println("║╔╗╔╗╠══╦══╣║╔╗");
+            System.out.println("║║║║║║╔╗║══╣╚╝╝");
+            System.out.println("║║║║║║╔╗╠══║╔╗╗");
+            System.out.println("╚╝╚╝╚╩╝╚╩══╩╝╚╝");
+            System.out.println("Nepxion Mask  v1.0.0");
+            System.out.println("");
+        }
     }
 
     static {
