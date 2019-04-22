@@ -15,6 +15,7 @@ import com.nepxion.banner.BannerConstant;
 import com.nepxion.banner.Description;
 import com.nepxion.banner.LogoBanner;
 import com.nepxion.banner.NepxionBanner;
+import com.nepxion.mask.constant.MaskConstant;
 import com.taobao.text.Color;
 
 public final class Mask {
@@ -35,13 +36,13 @@ public final class Mask {
             System.out.println("║║║║║║╔╗║══╣╚╝╝");
             System.out.println("║║║║║║╔╗╠══║╔╗╗");
             System.out.println("╚╝╚╝╚╩╝╚╩══╩╝╚╝");
-            System.out.println("Nepxion Mask  v1.0.0");
+            System.out.println("Nepxion Mask  v" + MaskConstant.MASK_VERSION);
             System.out.println("");
         }*/
 
         LogoBanner logoBanner = new LogoBanner(Mask.class, "/com/nepxion/mask/resource/logo.txt", "Welcome to Nepxion", 4, 5, new Color[] { Color.red, Color.green, Color.cyan, Color.blue }, true);
 
-        NepxionBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", "1.0.0", 0, 1), new Description(BannerConstant.GITHUB + ":", BannerConstant.NEPXION_GITHUB + "/mask", 0, 1));
+        NepxionBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", MaskConstant.MASK_VERSION, 0, 1), new Description(BannerConstant.GITHUB + ":", BannerConstant.NEPXION_GITHUB + "/mask", 0, 1));
     }
 
     static {
