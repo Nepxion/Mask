@@ -42,7 +42,7 @@ public final class Mask {
 
         LogoBanner logoBanner = new LogoBanner(Mask.class, "/com/nepxion/mask/resource/logo.txt", "Welcome to Nepxion", 4, 5, new Color[] { Color.red, Color.green, Color.cyan, Color.blue }, true);
 
-        NepxionBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", MaskConstant.MASK_VERSION, 0, 1), new Description(BannerConstant.GITHUB + ":", BannerConstant.NEPXION_GITHUB + "/mask", 0, 1));
+        NepxionBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", MaskConstant.MASK_VERSION, 0, 1), new Description(BannerConstant.GITHUB + ":", BannerConstant.NEPXION_GITHUB + "/Mask", 0, 1));
     }
 
     static {
