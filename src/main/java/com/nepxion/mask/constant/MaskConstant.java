@@ -1,8 +1,8 @@
 package com.nepxion.mask.constant;
 
 /**
- * <p>Title: Nepxion Discovery</p>
- * <p>Description: Nepxion Discovery</p>
+ * <p>Title: Nepxion Mask</p>
+ * <p>Description: Nepxion Mask</p>
  * <p>Copyright: Copyright (c) 2017-2050</p>
  * <p>Company: Nepxion</p>
  * @author Haojun Ren
