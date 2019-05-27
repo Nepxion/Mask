@@ -60,3 +60,7 @@ public class MaskTest {
 1***7@qq.com
 192.*.*.1
 ```
+
+## Star走势图
+
+[![Stargazers over time](https://starchart.cc/Nepxion/Mask.svg)](https://starchart.cc/Nepxion/Mask)
