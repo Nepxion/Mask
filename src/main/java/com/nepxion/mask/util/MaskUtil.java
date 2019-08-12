@@ -1,4 +1,4 @@
-package com.nepxion.mask.core;
+package com.nepxion.mask.util;
 
 /**
  * <p>Title: Nepxion Mask</p>
@@ -18,7 +18,7 @@ import com.nepxion.banner.NepxionBanner;
 import com.nepxion.mask.constant.MaskConstant;
 import com.taobao.text.Color;
 
-public final class Mask {
+public final class MaskUtil {
     public static final char MASK_CHAR = '*';
     public static final char[] MASK_3 = new char[3];
     public static final char[] MASK_4 = new char[4];
@@ -40,7 +40,7 @@ public final class Mask {
             System.out.println("");
         }*/
 
-        LogoBanner logoBanner = new LogoBanner(Mask.class, "/com/nepxion/mask/resource/logo.txt", "Welcome to Nepxion", 4, 5, new Color[] { Color.red, Color.green, Color.cyan, Color.blue }, true);
+        LogoBanner logoBanner = new LogoBanner(MaskUtil.class, "/com/nepxion/mask/resource/logo.txt", "Welcome to Nepxion", 4, 5, new Color[] { Color.red, Color.green, Color.cyan, Color.blue }, true);
 
         NepxionBanner.show(logoBanner, new Description(BannerConstant.VERSION + ":", MaskConstant.MASK_VERSION, 0, 1), new Description(BannerConstant.GITHUB + ":", BannerConstant.NEPXION_GITHUB + "/Mask", 0, 1));
     }
@@ -52,7 +52,7 @@ public final class Mask {
         Arrays.fill(MASK_100, MASK_CHAR);
     }
 
-    private Mask() {
+    private MaskUtil() {
 
     }
 

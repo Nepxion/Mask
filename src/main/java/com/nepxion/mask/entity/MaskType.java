@@ -11,7 +11,7 @@ package com.nepxion.mask.entity;
 
 import java.util.regex.Pattern;
 
-import com.nepxion.mask.core.Mask;
+import com.nepxion.mask.util.MaskUtil;
 
 public enum MaskType {
     /**
@@ -41,7 +41,7 @@ public enum MaskType {
         @Override
         protected char[] internalMask(String text) {
             char[] charArray = text.toCharArray();
-            charArray[0] = Mask.MASK_CHAR;
+            charArray[0] = MaskUtil.MASK_CHAR;
 
             return charArray;
         }
@@ -53,7 +53,7 @@ public enum MaskType {
     CVV(0, 0, 0) {
         @Override
         protected char[] internalMask(String text) {
-            return Mask.MASK_3;
+            return MaskUtil.MASK_3;
         }
     },
 
@@ -63,7 +63,7 @@ public enum MaskType {
     CREDIT_EXP(0, 0, 0) {
         @Override
         protected char[] internalMask(String text) {
-            return Mask.MASK_4;
+            return MaskUtil.MASK_4;
         }
     },
 
@@ -73,7 +73,7 @@ public enum MaskType {
     PASSWORD(0, 0, 0) {
         @Override
         protected char[] internalMask(String text) {
-            return Mask.MASK_6;
+            return MaskUtil.MASK_6;
         }
     },
 
@@ -83,7 +83,7 @@ public enum MaskType {
     CAPTCHA(0, 0, 0) {
         @Override
         protected char[] internalMask(String text) {
-            return Mask.MASK_6;
+            return MaskUtil.MASK_6;
         }
     },
 
@@ -92,7 +92,7 @@ public enum MaskType {
      */
     ADDRESS(0, 0, 0) {
         private final Pattern PATTERN = Pattern.compile("[0-9一二三四五六七八九十百千万]++|[A-Za-z]+(?=\\s*[座区])");
-        private final String mask = new String(Mask.MASK_3);
+        private final String mask = new String(MaskUtil.MASK_3);
 
         @Override
         protected char[] internalMask(String text) {
@@ -116,7 +116,7 @@ public enum MaskType {
 
             char[] chars = new char[length + 4];
             chars[0] = charArray[0];
-            chars[1] = chars[2] = chars[3] = Mask.MASK_CHAR;
+            chars[1] = chars[2] = chars[3] = MaskUtil.MASK_CHAR;
 
             System.arraycopy(charArray, index - 1, chars, 4, length);
 
@@ -145,7 +145,7 @@ public enum MaskType {
                     continue;
                 }
                 if (isMask) {
-                    charArray[offset++] = Mask.MASK_CHAR;
+                    charArray[offset++] = MaskUtil.MASK_CHAR;
                     isMask = false;
                 }
             }
@@ -235,13 +235,13 @@ public enum MaskType {
         }
 
         if (text.length() == 0) {
-            return Mask.EMPTY_CHARS;
+            return MaskUtil.EMPTY_CHARS;
         }
 
         return internalMask(text);
     }
 
     protected char[] internalMask(String text) {
-        return Mask.maskToChars(text, before, after, mask);
+        return MaskUtil.maskToChars(text, before, after, mask);
     }
 }
