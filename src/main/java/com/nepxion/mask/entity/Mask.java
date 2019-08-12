@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 import com.nepxion.mask.util.MaskUtil;
 
-public enum MaskType {
+public enum Mask {
     /**
      * 默认的掩码类型
      */
@@ -205,7 +205,7 @@ public enum MaskType {
      */
     private int mask;
 
-    private MaskType(int before, int after, int mask) {
+    private Mask(int before, int after, int mask) {
         this.before = before;
         this.after = after;
         this.mask = mask;
