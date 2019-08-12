@@ -38,7 +38,7 @@ public class MaskTest {
         System.out.println(MaskType.ID_CARD.mask("331012198001013030"));
         System.out.println(MaskType.NAME.mask("张三丰"));
         System.out.println(MaskType.CVV.mask("123"));
-        System.out.println(MaskType.CREDIT_EXP.mask("12/18"));
+        System.out.println(MaskType.EXP.mask("12/18"));
         System.out.println(MaskType.PASSWORD.mask("12345678"));
         System.out.println(MaskType.CAPTCHA.mask("1234"));
         System.out.println(MaskType.ADDRESS.mask("上海市浦东新区浦建路1000弄2号0501室"));
