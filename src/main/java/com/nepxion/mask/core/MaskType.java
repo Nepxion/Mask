@@ -10,7 +10,6 @@ package com.nepxion.mask.core;
  */
 
 import com.nepxion.mask.entity.AddressMask;
-import com.nepxion.mask.entity.AiMask;
 import com.nepxion.mask.entity.BankCardMask;
 import com.nepxion.mask.entity.CaptchaMask;
 import com.nepxion.mask.entity.CvvMask;
@@ -29,6 +28,11 @@ public enum MaskType {
      * 默认掩码
      */
     DEFAULT(DefaultMask.instance()),
+
+    /**
+     * 智能掩码
+     */
+    // AI(AiMask.instance()),
 
     /**
      * 手机号码掩码
@@ -83,12 +87,7 @@ public enum MaskType {
     /**
      * IP地址掩码
      */
-    IP_ADDRESS(IpAddressMask.instance()),
-
-    /**
-     * 智能掩码
-     */
-    AI(AiMask.instance());
+    IP_ADDRESS(IpAddressMask.instance());
 
     private Mask mask;
 

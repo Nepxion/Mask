@@ -12,11 +12,11 @@ package com.nepxion.mask.entity;
 public class AiMask extends Mask {
     private static final long serialVersionUID = -7365495867106615877L;
 
-    private static AiMask instance = new AiMask();
+    /*private static AiMask instance = new AiMask();
 
     public static AiMask instance() {
         return instance;
-    }
+    }*/
 
     private AiMask() {
         super(0, 0, 0);
