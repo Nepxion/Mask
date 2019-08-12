@@ -32,7 +32,7 @@ public class AiMask extends Mask {
             return IpAddressMask.instance().internalMask(text);
         }
 
-        if (text.indexOf('号') >= 0) {
+        if (text.indexOf('号') >= 0 || text.indexOf('幢') >= 0 || text.indexOf('座') >= 0 || text.indexOf('室') >= 0 ||  text.indexOf('国') >= 0 || text.indexOf('省') >= 0 || text.indexOf('市') >= 0 || text.indexOf('区') >= 0 || text.indexOf('乡') >= 0 || text.indexOf('镇') >= 0 || text.indexOf('村') >= 0) {
             return AddressMask.instance().internalMask(text);
         }
 
