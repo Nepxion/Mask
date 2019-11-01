@@ -6,7 +6,7 @@ Nepxion Mask是一款掩码脱敏集成组件(从网上开源搜集并重构优�
 ## 请联系我
 微信和公众号
 
-![Alt text](https://github.com/Nepxion/Docs/raw/master/zxing-doc/微信-1.jpg)![Alt text](https://github.com/Nepxion/Docs/raw/master/zxing-doc/公众号-1.jpg)
+![Alt text](https://github.com/HaojunRen/Docs/raw/master/zxing-doc/微信-1.jpg)![Alt text](https://github.com/HaojunRen/Docs/raw/master/zxing-doc/公众号-1.jpg)
 
 ## 简介
 支持如下业务场景
