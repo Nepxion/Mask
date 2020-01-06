@@ -15,6 +15,6 @@
 @title Nepxion Mask
 @color 0a
 
-call mvn versions:set -DnewVersion=1.0.0
+call mvn versions:set -DgenerateBackupPoms=false -DnewVersion=1.0.0
 
 pause
