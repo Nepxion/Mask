@@ -58,5 +58,4 @@ IP地址 192.168.0.1，脱敏值=192.*.*.1
 ```
 
 ## Star走势图
-
 [![Stargazers over time](https://starchart.cc/Nepxion/Mask.svg)](https://starchart.cc/Nepxion/Mask)
